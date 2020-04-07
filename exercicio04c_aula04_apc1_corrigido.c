@@ -8,10 +8,10 @@ int main( int argc, char const *argv[])
             d++;
         } 
     }
-    if (d == 2){
-       printf("É primo\n");
+    if(d == 2){
+        printf("É primo\n");
     }else{
         printf("Não é primo\n");
-        }   
+    }   
     return 0;
 }

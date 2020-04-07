@@ -8,13 +8,13 @@ int main(int argc, char const * argv[])
     }else{
         for(int i=0; i<=numero;i++){
             if (i%3==0){
-            contador=contador+i;
+                contador=contador+i;
             }
         }
         printf("A soma dos números é: %d\n",+contador);
 
     }
     
-return 0;
+    return 0;
 
 }
